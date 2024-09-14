@@ -4,7 +4,7 @@
 
 #### By default, the Translation Trait will match with the translation model located in the `Translations` folder within the directory of the model.
 
-![BaseModelDefinition](/readme/base-model-definition.png)
+![BaseModelDefinition](./readme/base-model-definition.png)
 
 ### Create a new model under Translations folder
 
@@ -12,7 +12,7 @@
 #### For example, for the `Product` model, it should be defined as `ProductTranslation`.
 #### If a different naming convention is used, the translation model can be specified in the main model via the `translationClass` method.
 
-![BaseModelDefinition](/readme/translation-model-definition.png)
+![BaseModelDefinition](./readme/translation-model-definition.png)
 
 ### Accessing Translation Data
 
@@ -21,4 +21,4 @@
 #### The `translations` method allows access to all language translations.
 #### The `activeLanguage` method works based on the value of app()->getLocale().
 
-![BaseModelDefinition](/readme/usage.png)
+![BaseModelDefinition](./readme/usage.png)
